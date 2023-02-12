@@ -33,7 +33,7 @@ while len(guess_stated) < 50:
         new_data = pandas.DataFrame(misssing_state)
         new_data.to_csv("states_to_learn.csv")
         break
-    
+     
     if answer_state in all_states:
         t = turtle.Turtle()
         turtle.penup()
